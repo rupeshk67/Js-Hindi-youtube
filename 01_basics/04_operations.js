@@ -34,3 +34,22 @@ let a = 3;
 const b = ++a;
 
 console.log(`a:${a}, b:${b}`);
+
+
+//========Comparison========
+// console.log("2">1); //true
+// console.log("02">1); //true
+
+// console.log(null > 0); //false
+// console.log(null == 0); //false
+// console.log(null >= 0); //true
+/*
+An Equality check (==) and comparisons(<,>,>=.<=,!=) works differently
+Comparisons convert "Null" to a number , treating it as 0.
+That's why case-3 ==> console.log(null >= 0); is 'true' and 
+case-1 ==>console.log(null > 0); is 'false'
+*/
+
+// ====Strictly check====
+// ===
+console.log("2"===2);
